@@ -42,7 +42,7 @@ function addHandler(id, fn, eventName) {
 }
 
 function setBackground(){
-  canvas.setBackgroundImage('../assets/sereno.jpg', canvas.renderAll.bind(canvas));
+  canvas.setBackgroundImage('assets/sereno.jpg', canvas.renderAll.bind(canvas));
   canvas.setHeight(2048);
   canvas.setWidth(1349);
 
