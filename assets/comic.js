@@ -61,7 +61,7 @@ function pushText(text){
 function renderText(text){
   if ( pushText(text) ){
     var vineta = new fabric.IText(text, {
-      fontFamily: "comicNeue",
+      fontFamily: "arial",
       left: 50,
       top: 50,
       fontSize: 36,
